@@ -1,0 +1,201 @@
+MAQUETACION.css
+*{
+    margin: 0;
+    padding: 0;
+    height: 4000;
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background: none;
+    margin: 0.5em auto;
+    
+}
+
+body {
+    background-image: url("https://media.glamour.mx/photos/6190891aa6e030d6480fcce3/16:9/pass/200129.jpg");
+}
+#header{
+    height:280px;
+    width: 1170px
+    background: none;
+    border-radius: 0em;
+    margin: 1em;
+}
+#body{
+    background-color: grey;
+    background-color: lightgrey;
+}
+
+#header{
+     max-width: 1170px;
+     margin: auto;
+     background-color:dodgerblue;
+     color: black;
+     font-size: 15px;
+     margin-top: 35px;
+    
+}
+.menu-horizontal{
+    background-color: yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 12px 8px;
+    color: black;
+    text-decoration: none;
+}
+.menu-horizontal> li:hover{
+    background-color: lightyellow;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0,.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: lightyellow;
+}
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 10px 10px 10px 15px;
+}
+#menu {
+  background-color: forestgreen;
+  width: 200px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 30px;
+  padding: 60px;
+}
+
+.menu li {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul ul {
+  display: none;
+  position: initial;
+  left: 200px;
+  top: 0;
+}
+
+.menu ul li:hover > ul {
+  display: initial;
+}
+
+.menu ul ul li {
+  border-top: 1px solid #ddd;
+  position: initial;
+}
+
+.menu ul ul ul li {
+  position: relative;
+  top: 60px;
+  left: 200px;
+}
+
+.menu {
+  background-color: forestgreen;
+  width: 200px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+
+.menu ul li:hover > ul {
+  display: inherit;
+}
+
+.menu ul ul li {
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+
+.menu ul ul ul li {
+  position: initial;
+  top: 60px;
+  left: 200px;
+}
+#contenido{
+    height: 60%;
+    background-color: none;
+    margin:1em ;
+}
+#footer{
+    height: 15%;
+    width: 1170px;
+    background-color: steelblue;
+    background-image: URL("https://cdn-3.expansion.mx/dims4/default/7807ad4/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F56%2F3f%2F78be7e124cd197f1a14345a9c19e%2Fcaptura.JPG");
+    background-size: 25% 100%;
+    border-radius: 0em;
+    margin: 1em;
+}
+.mm{
+    width: 820px;
+    height: 330px;
+    background-color: cornflowerblue;
+    margin: 1em;
+    border-radius: 0em;
+    float: right;
+}
+.ll{
+    width: 820px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 1em;
+    border-radius: 0em;
+    float: right;
+
+}
+.LOL{
+    height: 470;
+    width: 323;
+    background-color: skyblue;
+    background-image: URL("https://www.todocuadros.es/imagenes/pintores/van-gogh/cafe-terrace-van-gogh_1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: none;
+
+.plp {
+    float: left: ;
+}
